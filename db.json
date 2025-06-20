@@ -1,0 +1,54 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "username": "h1",
+      "password": "123",
+      "photo"   : "mascoteh1.png"
+    },
+    {
+      "id": 2,
+      "username": "h2",
+      "password": "456",
+      "photo"   : "mascoteh1.png"
+    },
+   {
+      "id": 3,
+      "username": "h3",
+      "password": "456",
+      "photo"   : "mascoteh1.png"
+    }
+ ],
+ "Grupos" : [
+   {
+    "id":1,
+    "nome":"Sif 5",
+    "qtde": 10,
+    "icone": "icone.png",
+    "valor": 50
+   },
+  {
+    "id":2,
+    "nome":"Sif 7",
+    "qtde": 10,
+    "icone": "icone.png",
+    "valor": 50
+   }
+  ],
+  "Produtos" : [
+    {
+      "id": 1,
+      "nome": "Arroz",
+      "EAN": 7896006717157,
+      "qtde": 1,
+      "icone": 50
+    },
+    {
+      "id": 2,
+      "nome": "Feijão",
+      "EAN": 7898272919273,
+      "qtde": 1,
+      "icone": 50
+    }
+  ]
+}

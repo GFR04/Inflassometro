@@ -1,44 +1,35 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native'; // Adicionei 'Image' na importação
-import LogoImagem from './assets/icon1.png'; // Importando corretamente a imagem
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useFonts } from '@expo-google-fonts/montserrat/useFonts';
 import { Montserrat_100Thin } from '@expo-google-fonts/montserrat/100Thin';
-<<<<<<< HEAD
 import { SplashScreens } from './src/screens/SplashScreens';
+import { TelaInicial } from './src/screens/TelaInicial';
+import { TelaGraficoDeInflacao } from './src/screens/TelaGraficoDeInflacao';
+import { TelaHistoricoDeCompras } from './src/screens/TelaHistoricoDeCompras';
+import { TelaRealizarCompra } from './src/screens/TelaRealizarCompra';
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
-  return (
-      <SplashScreens />
-  );
-};
-=======
+  const [fontsLoaded] = useFonts({
+    Montserrat_100Thin,
+  });
 
-export default function App() {
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <Image style={styles.logo} source={LogoImagem} /> 
-      <Text style={styles.text}>Inflassometro</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Splash" screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Splash" component={SplashScreens} />
+        <Stack.Screen name="TelaInicial" component={TelaInicial} />
+        <Stack.Screen name="TelaGraficoDeInflacao" component={TelaGraficoDeInflacao}/>
+        <Stack.Screen name="TelaRealizarCompra" component={TelaRealizarCompra}/>
+        <Stack.Screen name="TelaHistoricoDeCompras" component={TelaHistoricoDeCompras}/>
+      </Stack.Navigator>
+      <StatusBar style="light" />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#161616',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  text: {
-    color: '#fff',
-    fontSize: 16,
-    alignItems: 'center',
-    fontFamily: "Montserrat_100Thin",
-  },
-  logo: {
-    height: 64, // Ajustei as dimensões para algo mais visível
-    width: 64,  // Ajustei as dimensões para algo mais visível
-  },
-});
->>>>>>> 53ca545cce063e924ab82c3769c9890f0f499b0d
