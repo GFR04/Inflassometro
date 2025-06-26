@@ -1,0 +1,219 @@
+{
+  "listas": [
+    {
+      "id": "lista_dezembro_1",
+      "data": "15/12/2024",
+      "supermercado": "ABC",
+      "itens": [
+        {
+          "id": "1",
+          "nome": "Arroz Branco 5kg",
+          "categoria": "Alimentos Básicos",
+          "preco": 22.5,
+          "quantidade": 2
+        },
+        {
+          "id": "2",
+          "nome": "Feijão Preto 1kg",
+          "categoria": "Alimentos Básicos",
+          "preco": 9.2,
+          "quantidade": 3
+        },
+        {
+          "id": "19",
+          "nome": "Água Mineral 1,5L",
+          "categoria": "Bebidas",
+          "preco": 2.8,
+          "quantidade": 6
+        },
+        {
+          "id": "27",
+          "nome": "Carne Bovina Alcatra 1kg",
+          "categoria": "Carnes",
+          "preco": 52.9,
+          "quantidade": 1
+        },
+        {
+          "id": "35",
+          "nome": "Sabonete Líquido 250ml",
+          "categoria": "Higiene",
+          "preco": 9.8,
+          "quantidade": 2
+        }
+      ],
+      "total": 151.4
+    },
+    {
+      "id": "lista_dezembro_2",
+      "data": "18/12/2024",
+      "supermercado": "Barbosão",
+      "itens": [
+        {
+          "id": "3",
+          "nome": "Açúcar Cristal 1kg",
+          "categoria": "Alimentos Básicos",
+          "preco": 5.1,
+          "quantidade": 2
+        },
+        {
+          "id": "11",
+          "nome": "Biscoito Cream Cracker",
+          "categoria": "Biscoito e Salgadinhos",
+          "preco": 4.2,
+          "quantidade": 4
+        },
+        {
+          "id": "20",
+          "nome": "Refrigerante Cola 2L",
+          "categoria": "Bebidas",
+          "preco": 10.5,
+          "quantidade": 2
+        },
+        {
+          "id": "28",
+          "nome": "Frango Inteiro 1kg",
+          "categoria": "Carnes",
+          "preco": 14.9,
+          "quantidade": 2
+        },
+        {
+          "id": "43",
+          "nome": "Banana Prata 1kg",
+          "categoria": "Frutas",
+          "preco": 7.8,
+          "quantidade": 3
+        }
+      ],
+      "total": 91.5
+    },
+    {
+      "id": "lista_dezembro_3",
+      "data": "22/12/2024",
+      "supermercado": "Bernadão",
+      "itens": [
+        {
+          "id": "4",
+          "nome": "Óleo de Soja 900ml",
+          "categoria": "Alimentos Básicos",
+          "preco": 7.2,
+          "quantidade": 3
+        },
+        {
+          "id": "12",
+          "nome": "Biscoito Recheado Chocolate",
+          "categoria": "Biscoito e Salgadinhos",
+          "preco": 5.8,
+          "quantidade": 5
+        },
+        {
+          "id": "21",
+          "nome": "Suco de Laranja 1L",
+          "categoria": "Bebidas",
+          "preco": 7.9,
+          "quantidade": 3
+        },
+        {
+          "id": "36",
+          "nome": "Shampoo Anticaspa 400ml",
+          "categoria": "Higiene",
+          "preco": 18.5,
+          "quantidade": 1
+        },
+        {
+          "id": "44",
+          "nome": "Maçã Vermelha 1kg",
+          "categoria": "Frutas",
+          "preco": 10.2,
+          "quantidade": 2
+        }
+      ],
+      "total": 93.3
+    },
+    {
+      "id": "lista_dezembro_4",
+      "data": "25/12/2024",
+      "supermercado": "BH",
+      "itens": [
+        {
+          "id": "5",
+          "nome": "Farinha de Trigo 1kg",
+          "categoria": "Alimentos Básicos",
+          "preco": 4.5,
+          "quantidade": 2
+        },
+        {
+          "id": "13",
+          "nome": "Salgadinho Batata Frita",
+          "categoria": "Biscoito e Salgadinhos",
+          "preco": 8.2,
+          "quantidade": 3
+        },
+        {
+          "id": "22",
+          "nome": "Cerveja Lata 350ml",
+          "categoria": "Bebidas",
+          "preco": 3.8,
+          "quantidade": 12
+        },
+        {
+          "id": "29",
+          "nome": "Linguiça Calabresa 500g",
+          "categoria": "Carnes",
+          "preco": 21.5,
+          "quantidade": 2
+        },
+        {
+          "id": "37",
+          "nome": "Pasta de Dente 90g",
+          "categoria": "Higiene",
+          "preco": 4.9,
+          "quantidade": 3
+        }
+      ],
+      "total": 125.3
+    },
+    {
+      "id": "lista_dezembro_5",
+      "data": "28/12/2024",
+      "supermercado": "KamelMegaMix",
+      "itens": [
+        {
+          "id": "8",
+          "nome": "Leite Integral 1L",
+          "categoria": "Alimentos Básicos",
+          "preco": 5.5,
+          "quantidade": 4
+        },
+        {
+          "id": "14",
+          "nome": "Biscoito Wafer Morango",
+          "categoria": "Biscoito e Salgadinhos",
+          "preco": 3.9,
+          "quantidade": 6
+        },
+        {
+          "id": "23",
+          "nome": "Energético 250ml",
+          "categoria": "Bebidas",
+          "preco": 8.9,
+          "quantidade": 4
+        },
+        {
+          "id": "32",
+          "nome": "Presunto Fatiado 200g",
+          "categoria": "Carnes",
+          "preco": 10.5,
+          "quantidade": 3
+        },
+        {
+          "id": "45",
+          "nome": "Laranja Pêra 1kg",
+          "categoria": "Frutas",
+          "preco": 4.8,
+          "quantidade": 5
+        }
+      ],
+      "total": 125.9
+    }
+  ]
+}
